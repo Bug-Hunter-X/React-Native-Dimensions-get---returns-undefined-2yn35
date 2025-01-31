@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions. The `Dimensions.get('window')` or `Dimensions.get('screen')` methods might return `undefined` or `null`, resulting in errors when you try to access properties like `width` or `height`. This is often due to accessing these values before the layout is fully calculated. 
